@@ -1,7 +1,4 @@
-function insertionSort(array) {
-  let unsortedArray = array;
-  let sortedArray = [];
-
+function insertionSort() {
   for (let i = 0; i < unsortedArray.length; i++) {
     let currentValue = unsortedArray[i];
     sortedArray.push(currentValue);
